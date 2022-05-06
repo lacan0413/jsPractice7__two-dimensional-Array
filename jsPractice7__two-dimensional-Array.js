@@ -1,4 +1,4 @@
-var numbers = [
+let numbers = [
     [243, 12, 23, 12, 45, 45, 78, 66, 223, 3],
     [34, 2, 1, 553, 23, 4, 66, 23, 4, 55],
     [67, 56, 45, 553, 44, 55, 5, 428, 452, 3],
@@ -12,12 +12,12 @@ var numbers = [
 ];
 
 
-for(r=0;r<numbers.length;r++){
-    for(c=0;c<numbers[r].length;c++){
-        if(numbers[r][c]%2===0){
-            numbers[r][c]="even";
-        }else{
-            numbers[r][c]="odd";
+for (let r = 0; r < numbers.length; r++) {
+    for (let c = 0; c < numbers[r].length; c++) {
+        if (numbers[r][c] % 2 === 0) {
+            numbers[r][c] = "even";
+        } else {
+            numbers[r][c] = "odd";
         }
     }
 }
